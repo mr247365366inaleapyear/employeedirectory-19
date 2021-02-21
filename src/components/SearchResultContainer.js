@@ -37,7 +37,7 @@ class SearchResultContainer extends Component {
   }
 
   filterEmployees = (searchkey) => {
-    console.log("***in Filter*******");
+    console.log("filterEmployees");
     console.log(searchkey);
     console.log(this.state.result);
     var filterResult = this.state.result.filter(person => person.firstName === searchkey)
@@ -74,7 +74,6 @@ class SearchResultContainer extends Component {
     console.log(event);
     const value = event.target.value;
     const name = event.target.name;
-    console.log("**********");
     console.log(value);
     console.log(name);
     this.setState({
