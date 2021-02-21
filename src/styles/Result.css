@@ -1,0 +1,74 @@
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    /*text-rendering: initial;*/
+}
+* {
+    padding: 10;
+    margin: 10;
+  }
+  body {
+    margin: 10;
+    background-color: rgb(206, 235, 182);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-font-smoothing: flex-start;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .App {
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #84a0d6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .navbar {
+    padding: 20px 25px;
+    margin: 0 auto;
+  }
+  
+  .navbar-collapse {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .search-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
